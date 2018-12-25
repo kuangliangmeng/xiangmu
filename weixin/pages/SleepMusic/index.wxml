@@ -1,0 +1,272 @@
+<swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class='one'>
+  <swiper-item>
+    <image src='../../images/4.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../../images/5.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../../images/6.jpg'></image>
+  </swiper-item>
+</swiper>
+<view class='center1'>
+  <block wx:for='{{arr}}' wx:key='{{index}}'>
+    <view class='center' bindtap='{{item.tab}}'>
+      <view class='{{item.zi}}'>{{item.title}}</view>
+    </view>
+  </block>
+</view>
+
+<scroll-view scroll-y>
+  <view class='{{content}}' hidden='{{one1}}'>
+    <!-- 图一 -->
+    <view class='{{dabg}}' bindtap='xianshi'>
+      <image src='{{src}}' class='{{tu}}'></image>
+      <text class='chun'>春</text>
+      <text class='chun1'>Spring</text>
+      <view class='{{bg}}'></view>
+    </view>
+    <!-- 图二 -->
+    <view class='{{dabg}}' bindtap='xianshi1'>
+      <image src='{{src1}}' class='{{tu}}'></image>
+      <text class='xia'>夏</text>
+      <text class='xia1'>Summer</text>
+      <view class='{{sbg}}'></view>
+    </view>
+    <!-- 下拉 -->
+    <view class='xiala' hidden='{{selectPerson}}' animation="{{animationData}}">
+      <view class="select_one" bindtap="mySelect" data-me="你好">
+        <audio src="{{music}}" id="myAudio"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>1</text>
+          <view class='name'>{{ge}}</view>
+        </view>
+        <view bindtap="kaishi">
+          <image src='{{bofang}}' class='{{bo}}' bindtap="audioPlay"></image>
+          <image src='{{zanfang}}' class='{{bo1}}' bindtap="audioPause"></image>
+        </view>
+      </view>
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music1}}" id="myAudio1"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>2</text>
+          <view class='name'>{{ge1}}</view>
+        </view>
+        <view bindtap="kaishi1">
+          <image src='{{bofang}}' class='{{bo2}}' bindtap="audioPlay1"></image>
+          <image src='{{zanfang}}' class='{{bo3}}' bindtap="audioPause1"></image>
+        </view>
+      </view>
+
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music2}}" id="myAudio2"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>3</text>
+          <view class='name'>{{ge2}}</view>
+        </view>
+        <view bindtap="kaishi2">
+          <image src='{{bofang}}' class='{{bo4}}' bindtap="audioPlay2"></image>
+          <image src='{{zanfang}}' class='{{bo5}}' bindtap="audioPause2"></image>
+        </view>
+      </view>
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music3}}" id="myAudio3"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>4</text>
+          <view class='name'>{{ge3}}</view>
+        </view>
+        <view bindtap="kaishi3">
+          <image src='{{bofang}}' class='{{bo6}}' bindtap="audioPlay3"></image>
+          <image src='{{zanfang}}' class='{{bo7}}' bindtap="audioPause3"></image>
+        </view>
+      </view>
+    </view>
+
+    <!-- 图3 -->
+    <view class='{{dabg}}' bindtap='xianshi2'>
+      <image src='{{src2}}' class='{{tu}}'></image>
+      <view class='{{zhengti}}'>
+        <text class='qiu'>秋</text>
+        <text class='qiu1'>Autumn</text>
+      </view>
+      <view class='{{abg}}'></view>
+    </view>
+    <!-- 图四 -->
+    <view class='{{dabg}}' bindtap='xianshi3'>
+      <image src='{{src3}}' class='{{tu}}'></image>
+      <view class='{{zhengti1}}'>
+        <text class='dong'>冬</text>
+        <text class='dong1'>Water</text>
+      </view>
+      <view class='{{wbg}}'></view>
+    </view>
+
+    <!-- 下拉2 -->
+    <view class='xiala1' hidden='{{selectPerson1}}' animation="{{animationData}}">
+      <view class="select_one" bindtap="mySelect" data-me="你好">
+        <audio src="{{music}}" id="myAudio"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>1</text>
+          <view class='name'>{{ge}}</view>
+        </view>
+        <view bindtap="kaishi">
+          <image src='{{bofang}}' class='{{bo}}' bindtap="audioPlay"></image>
+          <image src='{{zanfang}}' class='{{bo1}}' bindtap="audioPause"></image>
+        </view>
+      </view>
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music1}}" id="myAudio1"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>2</text>
+          <view class='name'>{{ge1}}</view>
+        </view>
+        <view bindtap="kaishi1">
+          <image src='{{bofang}}' class='{{bo2}}' bindtap="audioPlay1"></image>
+          <image src='{{zanfang}}' class='{{bo3}}' bindtap="audioPause1"></image>
+        </view>
+      </view>
+
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music2}}" id="myAudio2"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>3</text>
+          <view class='name'>{{ge2}}</view>
+        </view>
+        <view bindtap="kaishi2">
+          <image src='{{bofang}}' class='{{bo4}}' bindtap="audioPlay2"></image>
+          <image src='{{zanfang}}' class='{{bo5}}' bindtap="audioPause2"></image>
+        </view>
+      </view>
+
+      <view class="select_one" bindtap="mySelect" data-me="你好1">
+        <audio src="{{music3}}" id="myAudio3"></audio>
+        <view class='shuzi'>
+          <text class='klmt'>4</text>
+          <view class='name'>{{ge3}}</view>
+        </view>
+        <view bindtap="kaishi3">
+          <image src='{{bofang}}' class='{{bo6}}' bindtap="audioPlay3"></image>
+          <image src='{{zanfang}}' class='{{bo7}}' bindtap="audioPause3"></image>
+        </view>
+      </view>
+
+
+    </view>
+
+  </view>
+  <view class='{{contentman2}}' hidden='{{two1}}'>
+     
+     <view class='kg'>
+     <image src='../../images/k1.jpg' class='kt'></image>
+     <view class='bl'></view>
+     <text class='sp'>散步</text>
+     </view>
+  <view class='kg'>
+     <image src='../../images/k2.jpg' class='kt'></image>
+      <view class='bl'></view>
+       <text class='sp1'>游戏</text>
+     </view>
+    <view class='kg'>
+     <image src='../../images/k3.jpg' class='kt'></image>
+        <view class='b2'></view>
+         <text class='sp2'>晚餐</text>
+     </view>
+  <view class='kg'>
+     <image src='../../images/k4.jpg' class='kt'></image>
+        <view class='b2'></view>
+         <text class='sp3'>对谈</text>
+     </view>
+      <view class='kg'>
+     <image src='../../images/k5.jpg' class='kt'></image>
+        <view class='b3'></view>
+         <text class='sp4'>思考人生</text>
+     </view>
+  <view class='kg'>
+     <image src='../../images/k6.jpg' class='kt'></image>
+        <view class='b3'></view>
+         <text class='sp5'>溪水</text>
+     </view>
+    <view class='kg'>
+     <image src='../../images/k7.jpg' class='kt'></image>
+        <view class='b4'></view>
+         <text class='sp6'>小酌</text>
+     </view>
+  <view class='kg'>
+     <image src='../../images/k8.jpg' class='kt'></image>
+        <view class='b4'></view>
+         <text class='sp7'>亲子</text>
+     </view>
+  </view>
+  <!-- <view class='{{contentman}}' hidden='{{three1}}'>
+
+    <view class="select_two" wx:for='{{arr1}}' wx:key='{{index}}'>
+      <audio src="{{item.music}}" id="{{item.myAudio}}" class='klma'></audio>
+      <view class='gedan'>
+        <text class='kltext'>{{item.shu}}</text>
+        <view class='name1'>{{item.ge1}}</view>
+      </view>
+      <view class='klmd' bindtap='klmbo'>
+        <image src='{{item.bofang}}' class='klmtu' bindtap="audioPlay20"></image>
+      </view>
+    </view>
+
+  </view> -->
+  <!-- <view class='{{contentman}}' hidden='{{fore1}}'>
+
+    <view class="select_two" wx:for='{{arr2}}' wx:key='{{index}}'>
+      <audio src="{{item.music}}" id="{{item.myAudio}}" class='klma'></audio>
+      <view class='gedan'>
+        <text class='kltext'>{{item.shu}}</text>
+        <view class='name1'>{{item.ge1}}</view>
+      </view>
+      <view class='klmd' bindtap='klmbo'>
+        <image src='{{item.bofang}}' class='klmtu' bindtap="audioPlay20"></image>
+      </view>
+    </view>
+
+  </view> -->
+  <!-- <view class='{{contentman}}' hidden='{{five1}}'>
+
+    <view class="select_two" wx:for='{{arr3}}' wx:key='{{index}}'>
+      <audio src="{{item.music}}" id="{{item.myAudio}}" class='klma'></audio>
+      <view class='gedan'>
+        <text class='kltext'>{{item.shu}}</text>
+        <view class='name1'>{{item.ge1}}</view>
+      </view>
+      <view class='klmd' bindtap='klmbo'>
+        <image src='{{item.bofang}}' class='klmtu' bindtap="audioPlay20"></image>
+      </view>
+    </view>
+
+  </view> -->
+</scroll-view>
+
+    <scroll-view scroll-y="true" class="container" hidden='{{six1}}'>
+      <block wx:for="{{recommends}}" wx:for-item="song" wx:key="{{index}}">
+        <view class="block" bindtap="playTap" data-id="{{song.id}}">
+          <view class="left">
+            <image src="{{song.album.picUrl}}" mode="aspectFill" />
+          </view>
+          <view class="right">
+            <view class="klcontent">
+              <view>
+                <span class="song-name">{{song.name}}</span>
+              </view>
+              <view>
+                <span class="song-artists">{{song.artists}} - {{song.album.name}}</span>
+              </view>
+            </view>
+            <view class="play">
+              <image src="../../images/more.png" mode="scaleToFill" />
+            </view>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+
+

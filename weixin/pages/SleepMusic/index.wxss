@@ -1,0 +1,599 @@
+.one {
+  width: 100%;
+  height: 300rpx;
+  /* border: 1px solid red; */
+  z-index: 10;
+}
+
+.one image {
+  width: 100%;
+  height: 300rpx;
+   z-index: 10;
+}
+.center1{
+   display: flex;
+  justify-content: space-around;
+}
+.center {
+  display: flex;
+  justify-content: space-around;
+  width: 16.1%;
+  height: 80rpx;
+  z-index: 999;
+}
+.zi1,.zi2,.zi3,.zi4,.zi5,.zi6 {
+  font-size: 16px;
+  line-height: 80rpx;
+   /* font-weight: 700; */
+}
+.content {
+  position: relative;
+  width: 100%;
+  height: 820rpx;
+  background-color: #030119;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* align-content: space-around; */
+}
+
+.content1 {
+  position: relative;
+  width: 100%;
+  height: 1220rpx;
+  background-color: #030119;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* align-content: space-around; */
+}
+.dabg {
+  width: 49%;
+  height: 49%;
+  display: flex;
+  justify-content: center;
+}
+.tu {
+  width: 100%;
+  height: 401rpx;
+}
+.xiala {
+  width: 100%;
+  height: 400rpx;
+  margin-top: -200rpx;
+}
+
+.xiala1 {
+  width: 100%;
+  height: 400rpx;
+  /* margin-top: -200rpx; */
+}
+.select_one {
+  position: relative;
+  text-align: center;
+  background-color: #030119;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 2rpx solid rgb(255, 255, 255);
+  color: white;
+}
+
+.bo {
+  width: 80rpx;
+  height: 100%;
+  margin-top: -100rpx;
+}
+
+.shuzi {
+  position: relative;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: -80rpx;
+  background-color: #232122;
+  z-index: 999;
+  margin-left: 20rpx;
+  color: white;
+}
+
+text {
+  position: absolute;
+  top: -12px;
+  left: 15rpx;
+}
+
+.bo {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 130rpx;
+  left: 660rpx;
+}
+
+.bo1 {
+  width: 0rpx;
+  height: 0rpx;
+  position: absolute;
+  top: 130rpx;
+  left: 660rpx;
+}
+
+.bo2 {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+
+.bo3 {
+  width: 0rpx;
+  height: 0rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+
+.bo4 {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+
+.bo5 {
+  width: 0rpx;
+  height: 0rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+
+.bo6 {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+
+.bo7 {
+  width: 0rpx;
+  height: 0rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 660rpx;
+}
+.name {
+  width: 550rpx;
+  height: 80rpx;
+  color: white;
+  margin-top: -0rpx;
+  position: absolute;
+  top: -10rpx;
+  left: 80rpx;
+}
+
+.chun{
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:130rpx;
+  margin-left:140rpx;
+}
+.chun1{
+  font-size: 16px;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:200rpx;
+  margin-left:120rpx;
+}
+
+.xia{
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:130rpx;
+  margin-left:520rpx;
+}
+.xia1{
+  font-size: 16px;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:200rpx;
+  margin-left:480rpx;
+}
+
+
+.qiu{
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:550rpx;
+  margin-left:140rpx;
+}
+.qiu1{
+  font-size: 16px;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:620rpx;
+  margin-left:100rpx;
+}
+
+
+.dong{
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:550rpx;
+  margin-left:520rpx;
+}
+.dong1{
+  font-size: 16px;
+  z-index: 998;
+  color: white;
+  float: left;
+  margin-top:620rpx;
+  margin-left:500rpx;
+}
+
+.zhengti{
+ position: absolute;
+ top:400rpx;
+ left:20rpx;
+}
+
+.zhengti1{
+ position: absolute;
+ top:400rpx;
+ left:10rpx;
+}
+.gonbg{
+   width: 50%;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.67);
+  position: absolute;
+  z-index: 999;
+}
+.bg{
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.67);
+  position: absolute;
+  z-index: 999;
+}
+.bg1{
+  width: 50%;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.17);
+  position: absolute;
+  z-index: 999;
+}
+.sbg{
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.67);
+  position: absolute;
+  z-index: 999;
+}
+.sbg1{
+ width: 50%;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.17);
+  position: absolute;
+  z-index: 999;
+}
+
+.abg{
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.67);
+  position: absolute;
+  z-index: 999;
+}
+.abg1{
+ width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.17);
+  position: absolute;
+  z-index: 999;
+  /* margin-top: 100rpx; */
+}
+
+.wbg{
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.67);
+  position: absolute;
+  z-index: 999;
+}
+.wbg1{
+ width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.17);
+  position: absolute;
+  z-index: 999;
+  /* margin-top: 100rpx; */
+}
+.contentman{
+ position: relative;
+  width: 100%;
+  height: 820rpx;
+  background-color: #030119;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: flex-start;
+} 
+
+.select_two{
+  position: relative;
+  text-align: center;
+  background-color: #030119;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid rgb(255, 255, 255);
+  color: white;
+}
+.gedan{
+  width:50rpx;
+  height:50rpx;
+ background-color: #232122;
+ margin-top: 25rpx;
+ margin-left: 20rpx;
+}
+.kltext{
+ margin-top: 25rpx;
+ margin-left: 20rpx;
+}
+.name1{
+  display: flex;
+  justify-content: flex-start;
+  width: 550rpx;
+  height: 80rpx;
+  color: white;
+  position: absolute;
+  top: 0rpx;
+  left: 120rpx;
+   font-size: 20px;
+}
+.klmtu{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 27rpx;
+  left: 660rpx;
+}
+.klma{
+  float: left;
+}
+.klmd{
+ width:50rpx;
+height:50rpx;
+margin-left:659rpx;
+margin-top:-50rpx;
+}
+
+
+.contentman2{
+ position: relative;
+  width: 100%;
+  height: 820rpx;
+  background-color: #030119;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+} 
+
+.kg{
+  width: 48%;
+  height: 200rpx;
+  /* border: 1px solid red; */
+}
+.kt{
+  width: 100%;
+  height: 200rpx;
+  z-index: -1;
+}
+.bl{
+  width: 50%;
+  height: 200rpx;
+  background-color: rgba(0, 0, 0, 0.523);
+  position: absolute;
+  top:1rpx;
+}
+.b2{
+  width: 50%;
+  height: 200rpx;
+  background-color: rgba(0, 0, 0, 0.523);
+  position: absolute;
+  top:208rpx;
+}
+.b3{
+  width: 50%;
+  height: 200rpx;
+  background-color: rgba(0, 0, 0, 0.523);
+  position: absolute;
+  top:413rpx;
+}
+
+.b4{
+  width: 50%;
+  height: 200rpx;
+  background-color: rgba(0, 0, 0, 0.523);
+  position: absolute;
+  top:618rpx;
+}
+/* span{
+  
+} */
+.sp{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+left:150rpx;
+top:70rpx;
+}
+.sp1{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+left:530rpx;
+top:70rpx;
+}
+.sp2{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+left:150rpx;
+top:270rpx;
+}
+.sp3{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+  left:530rpx;
+  top:270rpx;
+}
+.sp4{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+left:150rpx;
+top:470rpx;
+}
+.sp5{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+  left:530rpx;
+  top:470rpx;
+}
+.sp6{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+left:150rpx;
+top:670rpx;
+}
+.sp7{
+  color: white;
+  font-size: 20px;
+  z-index: 999;
+  position:absolute;
+  left:530rpx;
+  top:670rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+ 	padding-top: 10rpx; 
+ /* border: 1px solid red; */
+ height: 1000rpx;
+   background-color: #030119;
+}
+.block {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 150rpx;
+	margin-bottom: 10rpx; 
+}
+.left {
+	width: 20%;
+	height: 100%;
+	padding: 5rpx;
+	box-sizing: border-box;
+}
+
+.left image {
+	width: 100%;
+	height: 100%;
+}
+
+.right {
+	flex: 1;
+	height: 100%;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.klcontent {
+	padding: 10rpx;
+	height: 100%;
+	width: 90%;
+	box-sizing: border-box;
+}
+
+.play {
+	flex: 1;
+	height: 100%;
+	box-sizing: border-box;
+	margin-right: 20rpx;
+	display: flex;
+	flex-direction: row;
+  	align-items: center;
+}
+
+.play image {
+	width: 28px;
+	height: 28px;
+}
+
+.klcontent view {
+	width: 100%;
+	margin-bottom: 20rpx;
+}
+
+.song-name {
+  font-size: 18px;
+  color: white;
+}
+
+.song-artists {
+	font-size: 14px;
+	color: #999;
+}
+

@@ -1,0 +1,41 @@
+<view id='box'>
+  <view id='logo'>
+    <image src='../../images/logo1.jpg' mode='aspectFit'></image>
+  </view>
+  <view id='tital'>
+    随心音乐
+  </view>
+</view>
+<view id='box1'>
+  <view id='content'>
+    <text>随心听</text>
+    <text class='futatil'>随心听电台</text>
+  </view>
+  <view id='xian'></view>
+  <view id='content1'>
+    <text>音乐餐厅</text>
+    <text class='futatil'>音乐主题餐厅</text>
+  </view>
+</view>
+<view id='xian1'>
+  <view id='xian2'></view>
+</view>
+
+<view id='content2'>
+  <view id='zuo' bindtap="dianzhan">
+    <text class='{{classone}}'></text>
+    <span class='zi1'>好用</span>
+  </view>
+  <view id='xian3'></view>
+  <view id='you' bindtap="quxiaodianzhan">
+    <text class='{{classtwo}}'></text>
+    <span class='zi'>不好用</span>
+  </view>
+</view>
+
+<view id='{{content3}}'>
+  <view class='bg'>
+    <input type="text" placeholder='觉得好用的理由...'></input>
+  </view>
+</view>
+<view class='{{xian4}}'></view>
